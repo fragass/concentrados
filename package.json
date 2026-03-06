@@ -1,0 +1,25 @@
+{
+  "name": "ofjeqvzgyj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fragass/ofjeqvzgyj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fragass/ofjeqvzgyj/issues"
+  },
+  "homepage": "https://github.com/fragass/ofjeqvzgyj#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.97.0",
+    "formidable": "^3.5.4"
+  }
+}
