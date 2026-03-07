@@ -1,0 +1,7 @@
+
+module.exports=async(req,res)=>{
+
+res.setHeader("Set-Cookie","token=; Path=/; Max-Age=0")
+
+res.json({success:true})
+}

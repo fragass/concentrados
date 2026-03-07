@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Login | Sistema</title>
+<link rel="stylesheet" href="/assets/auth.css"/>
+</head>
+<body>
+
+<main class="auth-shell">
+<section class="auth-card">
+
+<div class="brand">
+<div class="brand-badge">S</div>
+<div>
+<h1>Sistema</h1>
+<p>Login e cadastro</p>
+</div>
+</div>
+
+<div class="tabs">
+<button class="tab-btn active" data-tab="login">Entrar</button>
+<button class="tab-btn" data-tab="register">Cadastrar</button>
+</div>
+
+<div id="alert" class="alert hidden"></div>
+
+<form id="loginForm" class="form active">
+<label>Email
+<input type="email" id="loginEmail" required/>
+</label>
+
+<label>Senha
+<input type="password" id="loginPassword" required/>
+</label>
+
+<button type="submit" class="primary-btn">Entrar</button>
+</form>
+
+<form id="registerForm" class="form">
+<label>Nome
+<input type="text" id="registerName" required/>
+</label>
+
+<label>Email
+<input type="email" id="registerEmail" required/>
+</label>
+
+<label>Senha
+<input type="password" id="registerPassword" required/>
+</label>
+
+<button type="submit" class="primary-btn">Criar conta</button>
+</form>
+
+</section>
+</main>
+
+<script src="/assets/auth.js"></script>
+</body>
+</html>
