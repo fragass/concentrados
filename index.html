@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body class="center">
+<div class="card">
+<h2>Login</h2>
+<input id="user" placeholder="Usuário">
+<input id="pass" type="password" placeholder="Senha">
+<button onclick="login()">Entrar</button>
+</div>
+<script>
+function login(){
+  const u=document.getElementById('user').value;
+  sessionStorage.setItem("user",u);
+  window.location="app.html";
+}
+</script>
+</body>
+</html>

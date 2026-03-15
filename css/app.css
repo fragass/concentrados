@@ -1,0 +1,11 @@
+
+body{font-family:Arial;background:#111;color:#eee;margin:0}
+.center{display:flex;height:100vh;align-items:center;justify-content:center}
+.card{background:#1a1a1a;padding:30px;border-radius:8px}
+.layout{display:flex;height:100vh}
+.sidebar{width:260px;background:#151515;padding:15px}
+.chat{flex:1;display:flex;flex-direction:column}
+.composer{display:flex;padding:10px;background:#151515}
+input{flex:1;padding:8px;margin:5px 0}
+button{padding:8px 14px}
+.empty{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;color:#888}
