@@ -1,7 +1,0 @@
-
-{
-"name":"supabase-auth-html",
-"dependencies":{
-"@supabase/supabase-js":"^2.57.4"
-}
-}
